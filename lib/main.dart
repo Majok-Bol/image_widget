@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(title: Text('Image Widget',style: TextStyle(color: Colors.red,fontSize: 20),),centerTitle: true,),
         backgroundColor: Colors.grey,
         body: Container(
           padding: EdgeInsets.all(10),
