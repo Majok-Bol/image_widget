@@ -35,6 +35,13 @@ class MyApp extends StatelessWidget{
                   Expanded(child: Image.asset('assets/images/p7.jpeg'),),
                   SizedBox(width: 20,),
                   Expanded(child: Image.asset('assets/images/p8.jpeg'),),
+
+                ],
+              ),
+              SizedBox(height: 20,),
+              Row(
+                children: [
+                  Text('Everything in Flutter is a Widget like the images above',style: TextStyle(fontSize: 20,),),
                 ],
               ),
 
