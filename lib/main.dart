@@ -7,7 +7,10 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.grey,
         body: Container(
+          padding: EdgeInsets.all(10),
+          margin: EdgeInsets.symmetric(vertical: 50,horizontal: 50),
           child: Row(
             children: [
 
