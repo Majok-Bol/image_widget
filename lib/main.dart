@@ -13,8 +13,12 @@ class MyApp extends StatelessWidget{
         body: Container(
           padding: EdgeInsets.all(10),
           margin: EdgeInsets.symmetric(vertical: 50,horizontal: 50),
-          child: Row(
+          child: Column(
             children: [
+           Expanded(child: Image.asset('assets/images/p1.jpg'),),
+              Expanded(child: Image.asset('assets/images/p2.jpg'),),
+              Expanded(child: Image.asset('assets/images/p3.jpeg'),),
+              Expanded(child: Image.asset('assets/images/p4.jpeg'),),
 
             ],
           ),
